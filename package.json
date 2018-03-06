@@ -1,7 +1,7 @@
 {
-  "name": "passport-oauth2",
-  "version": "1.4.0",
-  "description": "OAuth 2.0 authentication strategy for Passport.",
+  "name": "passport-discord-oauth2",
+  "version": "1.0.0",
+  "description": "Discord OAuth 2.0 authentication strategy for Passport.",
   "keywords": [
     "passport",
     "auth",
@@ -12,17 +12,24 @@
     "oauth",
     "oauth2"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
+  "authors": [
+    {
+      "name": "Jared Hanson",
+      "email": "jaredhanson@gmail.com",
+      "url": "http://www.jaredhanson.net/"
+    },
+    {
+      "name": "Rafael Vidaurre",
+      "email": "narzerus@gmail.com",
+      "url": "http://www.rafaelvidaurre.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-oauth2.git"
+    "url": "git://github.com/Narzerus/passport-discord-oauth2.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-oauth2/issues"
+    "url": "http://github.com/Narzerus/passport-discord-oauth2/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -39,15 +46,6 @@
     "utils-merge": "1.x.x"
   },
   "devDependencies": {
-    "make-node": "0.3.x",
-    "mocha": "2.x.x",
-    "chai": "2.x.x",
-    "chai-passport-strategy": "1.x.x"
-  },
-  "engines": {
-    "node": ">= 0.4.0"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+    "make-node": "0.3.x"
   }
 }
